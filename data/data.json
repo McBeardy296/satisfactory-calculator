@@ -66,6 +66,20 @@
             "name": "Refinery",
             "key_name": "oil-refinery",
             "category": "refining",
+            "power": 75,
+            "max": 4
+        },
+		{
+			"name": "Particle Accelerator",
+			"key_name": "particle-accelerator",
+			"category": "crafting4",
+			"power": 1500,
+			"max": 3,
+		},
+        {
+            "name": "Blender",
+            "key_name": "blender",
+            "category": "refining",
             "power": 30,
             "max": 2
         }
@@ -105,6 +119,13 @@
             "category": "oil",
             "base_rate": 120,
             "power": 40
+        },
+		{
+            "name": "Resource Well Extractor",
+            "key_name": "oil-extractor",
+            "category": "oil",
+            "base_rate": 60,
+            "power": 0
         }
     ],
     "items": [
@@ -687,6 +708,7 @@
             "ingredients": [
                 ["modular-frame", 1],
 				["steel-beam", 12]
+				
             ],
             "product": ["versatile-framework", 2]
         },
@@ -737,6 +759,40 @@
 				["computer", 2]
             ],
             "product": ["adaptive-control-unit", 2]
+        },
+		{
+            "name": "Assembly Director System",
+            "key_name": "assembly-director-system",
+            "category": "crafting2",
+            "time": 80,
+            "ingredients": [
+                ["adaptive-control-unit", 2],
+				["supercomputer", 1]
+            ],
+            "product": ["assembly-director-system", 1]
+        },
+		{
+            "name": "Magnetic Field Generator",
+            "key_name": "magnetic-field-generator",
+            "category": "crafting3",
+            "time": 120,
+            "ingredients": [
+                ["versatile-framework", 5],
+				["em-control-rod", 2],
+				["battery", 10]
+            ],
+            "product": ["magnetic-field-generator", 2]
+        },
+		{
+            "name": "Nuclear Pasta",
+            "key_name": "nuclear-pasta",
+            "category": "crafting2",
+            "time": 120,
+            "ingredients": [
+                ["copper-powder", 200],
+				["pressure-conversion-cube", 1]
+            ],
+            "product": ["nuclear-pasta", 1]
         },
 		{
             "name": "Iron Ingot",
